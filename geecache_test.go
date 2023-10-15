@@ -41,7 +41,7 @@ func TestGet(t *testing.T) {
 
 	for k, v := range db {
 		if view, err := gee.Get(k); err != nil || view.String() != v {
-			t.Fatal("failed to get value of Tom")
+			t.Fatal("failed to get value of hhhhy")
 		}
 		if _, err := gee.Get(k); err != nil || loadCounts[k] > 1 {
 			t.Fatalf("cache %s miss", k)
