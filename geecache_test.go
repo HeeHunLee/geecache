@@ -8,9 +8,9 @@ import (
 )
 
 var db = map[string]string{
-	"Tom":  "630",
-	"Jack": "589",
-	"Sam":  "567",
+	"hy":         "9",
+	"hhhhy":      "99",
+	"hhhhhhhhhy": "999",
 }
 
 func TestGetter(t *testing.T) {
